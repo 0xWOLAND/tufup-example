@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(
-    ['src/main.py'],
+    ['main.py'],
     pathex=[],
     binaries=[],
     datas=[('temp_my_app/repository/metadata/root.json', '.')],
@@ -31,7 +31,7 @@ exe = EXE(
     bootloader_ignore_signals=False,
     strip=False,
     upx=True,
-    console=True,
+    console=False,  # Changed to False to enable windowed mode
     disable_windowed_traceback=False,
     argv_emulation=False,
     target_arch=None,

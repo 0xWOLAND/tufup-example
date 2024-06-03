@@ -24,13 +24,13 @@ safe and should *not* be used in production.
 
 """
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
 
     # Create repository instance
     repo = Repository(
         app_name=APP_NAME,
-        app_version_attr='myapp.__version__',
+        app_version_attr="myapp.__version__",
         repo_dir=REPO_DIR,
         keys_dir=KEYS_DIR,
         key_map=KEY_MAP,

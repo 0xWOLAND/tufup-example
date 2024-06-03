@@ -107,7 +107,7 @@ On the same system (for convenience):
    To install the bundle on macOS to the default location, you can use 
    `mkdir -p ~/Applications/my_app && tar -xf temp_my_app/repository/targets/my_app-1.0.tar.gz -C ~/Applications/my_app`.
 
-2. [optional] To try a patch update, copy the archive version 1.0 into the `TARGET_DIR` (this would normally be done by an installer).
+2 .[optional] To try a patch update, copy the archive version 1.0 into the `TARGET_DIR` (this would normally be done by an installer).
 3. Assuming the repo files are being served on localhost, as described above, we can now run the newly extracted executable, `main.exe` or `main`, depending on platform, directly from the `INSTALL_DIR`, and it will perform an update.
 4. Metadata and targets are stored in the `UPDATE_CACHE_DIR`.
 
